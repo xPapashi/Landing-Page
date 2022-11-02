@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
 
 body {
     margin: 0;
@@ -6,15 +6,53 @@ body {
     background-color: #1F2937;
 }
 
+/* TEMP BORDER */
+* {
+    border: 2px solid tomato;
+}
+
+/* Header Logo */
+
 .header {
     display: flex;
     justify-content: space-around;
     padding: 16px;
+    color: #F9FaF8;
+    margin-bottom: 50px;
+}
+
+.header .logo {
+    font-weight: 900;
+    font-size: 20px;
 }
 
 ul {
+    list-style: none;
     display: flex;
     gap: 16px;
     margin: 0;
     padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FaF8;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+/* Header Top */
+
+.container-top {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
 }
